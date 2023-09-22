@@ -1,5 +1,6 @@
-import React, { useCallback } from 'react'
+import React from 'react'
 import { useState } from 'react'
+import { FaTrashAlt } from "react-icons/fa";
 
 const Content = () => {
   const[items,setItems]= useState([{id:1,checked:true,item:"Play cricket"},
@@ -16,7 +17,8 @@ const Content = () => {
             <input type="checkbox"
             checked={item.checked} />
             <label >{item.item}</label>
-            <button>delete</button>
+            <FaTrashAlt/>
+            
           </li>
         ))}
       </ul>
