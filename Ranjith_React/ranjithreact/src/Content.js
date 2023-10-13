@@ -4,8 +4,8 @@ import { FaTrashAlt } from "react-icons/fa";
 
 const Content = () => {
   const[items,setItems]= useState([{id:1,checked:true,item:"Play cricket"},
-  {id:1,checked:true,item:"footbal"},
-  {id:1,checked:true,item:"coco"}])
+  {id:2,checked:true,item:"footbal"},
+  {id:3,checked:true,item:"coco"}])
   
       
      
@@ -16,7 +16,7 @@ const Content = () => {
           <li>
             <input type="checkbox"
             checked={item.checked} />
-            <label >{item.item}</label>
+            <label >{item.item} </label>
             <FaTrashAlt/>
             
           </li>
