@@ -1,0 +1,12 @@
+.button-wrapper{
+    background-color:grey;
+    height: 4em;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    flex: 1;
+    display: flex;
+    font-size: 24px;
+    margin: 4px;
+    border-radius: 24px;
+}
